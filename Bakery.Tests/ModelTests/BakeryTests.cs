@@ -14,12 +14,6 @@ namespace Bakery.Tests
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
     [TestMethod]
-    public void Pastry_createsPastryInstance_Pastry()
-    {
-      Pastry newPastry = new Pastry(2,5);
-      Assert.AreEqual(typeof(Pastry), newPastry.GetType());
-    }
-    [TestMethod]
      public void BreadPrice_checksPriceOfBread_Bread()
     {
      int breadPrice = 5;
@@ -28,6 +22,16 @@ namespace Bakery.Tests
      Bread newBread = new Bread(breadQuantity, breadPrice);
      int totalBreadCost = newBread.CostOfBread();
      Assert.AreEqual(totalBreadCost, total);
+    }
+  }
+  [TestClass]
+  public class PastryTest
+  {
+    [TestMethod]
+    public void Pastry_createsPastryInstance_Pastry()
+    {
+      Pastry newPastry = new Pastry(2,5);
+      Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
     [TestMethod]
      public void PastryPrice_checksPriceOfPastry_Pastry()
