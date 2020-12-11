@@ -34,7 +34,7 @@ namespace Bakery.Tests
     {
      int pastryPrice = 2;
      int pastryQuantity = 5;
-     int total = 20;
+     int total = 10;
      Pastry newPastry = new Pastry(pastryQuantity, pastryPrice);
      int totalPastryCost = newPastry.CostOfPastry();
      Assert.AreEqual(totalPastryCost, total);
