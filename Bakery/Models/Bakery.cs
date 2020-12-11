@@ -1,21 +1,26 @@
 using System;
+using System.Collections.Generic;
 
-namespace Bakery
+namespace Bakery.Models
 {
   public class Bread
   {
-    public string BreadPrice { get; set; }
-    public Bread(string breadprice)
+    public int PriceOfBread { get; }
+    public int QuantityOfBread { get; }
+    public Bread(int breadPrice, int breadQuantity)
     {
-      BreadPrice = breadprice;
+      PriceOfBread = breadPrice;
+      QuantityOfBread = breadQuantity;
     }
   }
   public class Pastry
   {
-    public string PastryPrice { get; set; }
-    public Pastry(string pastryprice)
+    public int PriceOfPastry { get; }
+    public int QuantityOfPastry {get; }
+    public Pastry(int pastryprice, int pastryQuantity)
     {
-      PastryPrice = pastryprice;
+      PriceOfPastry = pastryprice;
+      QuantityOfPastry = pastryQuantity;
     }
   }
 }
