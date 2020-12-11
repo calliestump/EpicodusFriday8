@@ -10,8 +10,8 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadRules_creates_BreadPrice()
     {
-      
-      Assert.AreEqual("5", Bread.BreadPrice);
+      /*BreadRules Bread = new BreadRules("5");
+      Assert.AreEqual("5", Bread.BreadPrice);*/
     }
   }
 }
