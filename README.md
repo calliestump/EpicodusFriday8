@@ -5,8 +5,8 @@
 ## By _Callie Stump_
 ---
 ## 🚩 **Description**
-This is a console application that allows the user to choose how many loaves of bread & how many pastrys they would like to order. When run, the user is prompt with a welcome message and a menu including prices and deals.
-Pierre's Bakery offers a deal for each item; buy two bread loaves, get one free & buy one pastry for $2.00 or three for $5.00. 
+This is a console application that allows the user to choose how many loaves of bread & how many pastry's they would like to order. When run, the user is prompt with a welcome message and a menu including prices and deals.
+Pierre's Bakery offers a deal for each category; buy two bread loaves, get one free & buy one pastry for $2.00 or three for $5.00. 
 
 ## **Technologies Used**
 * C# V:7.3
@@ -45,33 +45,11 @@ This will show you if everything is compiling correctly; if otherwise you be wil
 ```
 git remote add origin TODO
 ```
-#### Note: Do this is your main parent directory. You do not want to have git initialzed in any other places.
+#### Note: Do this is your main parent directory. You do not want to have git initialized in any other places.
 
 ## 🐛 Known Bugs
-
-## **Specs**
-
-<details>
-<summary>Expand Specs</summary>
-<table>
-  <tr>
-    <th>Test</th>
-    <th>Input</th>
-    <th>Output</th>
-    <th>Completed</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>    
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>  
+There are no known bugs at this time.
+## Contact & Support
+Feel free to contact me with any concerns or questions regarding this program at callie@stu.mp.
 ## Legal
 Copyright (c) 2020 Callie Stump

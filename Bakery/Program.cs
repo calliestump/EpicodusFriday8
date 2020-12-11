@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using Bakery.Models;
 class Program
 {
@@ -66,7 +65,7 @@ class Program
       int finalBill = totalBreadCost + totalPastryCost;
       Console.WriteLine($"Your order total with todays deal is: ${finalBill}.00");
     }
-    Console.WriteLine($"Your cart comes to {numBreadQuan} loaves of bread and {pastryQuantity} pastry's.");
+    Console.WriteLine($"Your cart comes to {numBreadQuan} loaves of bread and {pastryQuantity} pastry('s).");
     Console.WriteLine("Thank you! Hope to see you again soon :)");
   }
 }
