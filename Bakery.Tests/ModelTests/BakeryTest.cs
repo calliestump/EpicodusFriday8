@@ -8,10 +8,10 @@ namespace Bakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void BreadRules_creates_PastryPrice()
+    public void BreadRules_createsBreadInstance_Bread()
     {
-      /*BreadRules Bread = new BreadRules("5");
-      Assert.AreEqual("5", Bread.BreadPrice);*/
+      //Bread newBread = new Bread();
+      //Assert.AreEqual("5", newBread.BreadPrice);
     }
   }
   [TestClass]

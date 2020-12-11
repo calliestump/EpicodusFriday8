@@ -1,19 +1,19 @@
-# Title
+# Pierre's Bakery
 
-#### **Date**
+#### **12/11/2020**
 
 ## By _Callie Stump_
 ---
 ## 🚩 **Description**
-
+This is a console application that allows the user to choose how many loaves of bread and how many pastrys they would like. When run, the user is prompt with a welcome message, prices, and deals. 
 
 ## 🔧 Setup/Installation Requirements
 
-1. Copy this download link: TODO
+1. Copy this download link: https://github.com/calliestump/Friday8.git
 2. Open bash and go to the directory where you would like to store your cloned project.
 3. Clone the repo.
 ```
-git clone "TODO"
+git clone "https://github.com/calliestump/Friday8.git"
 ```
 4. Navigate to the cloned project folder and open VS code.
 ```
@@ -21,28 +21,25 @@ $ cd Desktop
 $ cd [known directory]
 $ code .
 ```
-5. Navigate to the VS terminal and download your dependencies with node.
+5. Navigate to the testing project folder in your VS terminal initalizes dotnet.
 ```
-npm install
+dotnet restore
 ```
-6. If you wish to run a live server run the following code:
+6. If you wish to see if everything is compiling correctly go to the Bakery directory and run the following:
 ```
-npm run start
+dotnet build
 ```
 7. To see if the program is functioning properly you can use:
 ```
-npm run build
+dotnet run
 ```
 This will show you if everything is compiling correctly; if otherwise you be will prompt with error messages.
 
-8. In order to run the tests for functionality, run the following code:
-```
-npm run test
-```
 #### Dont forget that in order to push any changes you need to add your own GitHub repo. to your project.
 ```
 git remote add origin TODO
 ```
+#### Note: Do this is your main parent directory. You do not want to have git initialzed in any other places.
 ## **Technologies Used**
 * C# V:7.3
 * .NET Core V:2.2
