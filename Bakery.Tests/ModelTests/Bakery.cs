@@ -10,13 +10,13 @@ namespace Bakery.Tests
     [TestMethod]
     public void Bread_createsBreadInstance_Bread()
     {
-      Bread newBread = new Bread(5,3);
+      Bread newBread = new Bread(5,4);
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
     [TestMethod]
     public void Pastry_createsPastryInstance_Pastry()
     {
-      Pastry newPastry = new Pastry(2);
+      Pastry newPastry = new Pastry(2,5);
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
     [TestMethod]
@@ -32,7 +32,12 @@ namespace Bakery.Tests
     [TestMethod]
      public void PastryPrice_checksPriceOfPastry_Pastry()
     {
-     
+     int pastryPrice = 2;
+     int pastryQuantity = 5;
+     int total = 20;
+     Pastry newPastry = new Pastry(pastryQuantity, pastryPrice);
+     int totalPastryCost = newPastry.CostOfPastry();
+     Assert.AreEqual(totalPastryCost, total);
     }
   }
 }

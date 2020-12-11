@@ -22,9 +22,10 @@ namespace Bakery.Models
   {
     public int PriceOfPastry { get; set; }
     public int QuantityOfPastry {get; set; }
-    public Pastry(int pastryQuantity)
+    public Pastry(int pastryQuantity, int pastryPrice)
     {
       QuantityOfPastry = pastryQuantity;
+      PriceOfPastry = pastryPrice;
     }
     public int CostOfPastry()
     {
