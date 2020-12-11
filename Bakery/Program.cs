@@ -33,6 +33,10 @@ class Program
     // Total price with deals.
     int numBreadQuan = int.Parse(breadQuantity); //Parsing line 22
     int numPastryQuan = int.Parse(pastryQuantity); //Parsing line 24
+    if (numBreadQuan == 0 && numPastryQuan == 0){
+      Console.WriteLine("Oops! Please enter a valid order.");
+      Program.Main();
+    }
     if (numBreadQuan == 2 && numPastryQuan == 3) {
       numBreadQuan = 3;
       int newPastryCost = 5;
@@ -54,7 +58,7 @@ class Program
       Console.WriteLine($"Cost of pastry: ${newPastryCost}.00");
       int finalBill = totalBreadCost + newPastryCost;
       Console.WriteLine($"Your order total with todays deal is: ${finalBill}.00");
-    }
+    } 
     else
     {
       Console.WriteLine($"Cost of bread: ${totalBreadCost}.00");
