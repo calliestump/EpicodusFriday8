@@ -5,31 +5,31 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    public int PriceOfBread { get; set; }
-    public int QuantityOfBread { get; set; }
+    public int _PriceOfBread { get; set; }
+    public int _QuantityOfBread { get; set; }
     public Bread(int breadQuantity, int breadPrice)
     {
-      QuantityOfBread = breadQuantity;
-      PriceOfBread = breadPrice;
+      _QuantityOfBread = breadQuantity;
+      _PriceOfBread = breadPrice;
     }
     public int CostOfBread()
     {
-      int costOfBread = PriceOfBread * QuantityOfBread;
+      int costOfBread = _PriceOfBread * _QuantityOfBread;
       return costOfBread;
     }
   }
   public class Pastry
   {
-    public int PriceOfPastry { get; set; }
-    public int QuantityOfPastry {get; set; }
+    public int _PriceOfPastry { get; set; }
+    public int _QuantityOfPastry {get; set; }
     public Pastry(int pastryQuantity, int pastryPrice)
     {
-      QuantityOfPastry = pastryQuantity;
-      PriceOfPastry = pastryPrice;
+      _QuantityOfPastry = pastryQuantity;
+      _PriceOfPastry = pastryPrice;
     }
     public int CostOfPastry()
     {
-      int costOfpastry = PriceOfPastry* QuantityOfPastry;
+      int costOfpastry = _PriceOfPastry * _QuantityOfPastry;
       return costOfpastry;
     }
   }

@@ -31,7 +31,7 @@ class Program
     Pastry newPastry = new Pastry(int.Parse(pastryQuantity), int.Parse(pastryPrice));
     int totalPastryCost = newPastry.CostOfPastry();
     Console.WriteLine(totalPastryCost);
-
+    // Total price before deals.
     int billTotal = (totalPastryCost + totalBreadCost);
     Console.WriteLine("Your total is:");
     Console.WriteLine(billTotal);
