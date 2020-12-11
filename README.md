@@ -5,10 +5,16 @@
 ## By _Callie Stump_
 ---
 ## 🚩 **Description**
-This is a console application that allows the user to choose how many loaves of bread and how many pastrys they would like. When run, the user is prompt with a welcome message, prices, and deals. 
+This is a console application that allows the user to choose how many loaves of bread & how many pastrys they would like to order. When run, the user is prompt with a welcome message and a menu including prices and deals.
+Pierre's Bakery offers a deal for each item; buy two bread loaves, get one free & buy one pastry for $2.00 or three for $5.00. 
 
-## 🔧 Setup/Installation Requirements
+## **Technologies Used**
+* C# V:7.3
+* .NET Core V:2.2
+* dotnet script, REPL
 
+## 🔧 **Setup/Installation Requirements**
+#### The Technologies listed above are required to run this program.
 1. Copy this download link: https://github.com/calliestump/Friday8.git
 2. Open bash and go to the directory where you would like to store your cloned project.
 3. Clone the repo.
@@ -40,10 +46,6 @@ This will show you if everything is compiling correctly; if otherwise you be wil
 git remote add origin TODO
 ```
 #### Note: Do this is your main parent directory. You do not want to have git initialzed in any other places.
-## **Technologies Used**
-* C# V:7.3
-* .NET Core V:2.2
-* dotnet script, REPL
 
 ## 🐛 Known Bugs
 
