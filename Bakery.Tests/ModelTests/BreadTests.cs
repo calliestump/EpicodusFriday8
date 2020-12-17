@@ -15,7 +15,7 @@ namespace Bakery.Tests
     [TestMethod]
      public void BreadPrice_checksPriceOfBread_Bread()
     {
-     int costOfBread = 5;
+     int costOfBread = 20;
      int breadQuantity = 4;
      Bread newBread = new Bread(breadQuantity);
      int totalBreadCost = newBread.CostOfBread();
