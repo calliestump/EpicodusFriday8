@@ -2,17 +2,28 @@ namespace Bakery.Models
 {
   public class Pastry
   {
-    public int PriceOfPastry { get; set; }
+    public int PriceOfPastry { get; set; } = 2;
     public int QuantityOfPastry {get; set; }
-    public Pastry(int pastryQuantity, int pastryPrice)
+    public Pastry(int pastryQuantity)
     {
       QuantityOfPastry = pastryQuantity;
-      PriceOfPastry = pastryPrice;
     }
     public int CostOfPastry()
     {
-      int costOfpastry = PriceOfPastry * QuantityOfPastry;
-      return costOfpastry;
+      if (QuantityOfPastry % 3 == 0)
+      {
+        int costOfpastry = (QuantityOfPastry / 3) * 5;
+        return costOfpastry;
+      }
+      else if (QuantityOfPastry % 3 > 0 && QuantityOfPastry > 3)
+      {
+        int costOfpastry = ((QuantityOfPastry / 3) * 5) + ((QuantityOfPastry % 3) * PriceOfPastry);
+        return costOfpastry;
+      }
+      else
+      {
+        return QuantityOfPastry * PriceOfPastry;
+      }
     }
   }
 }
