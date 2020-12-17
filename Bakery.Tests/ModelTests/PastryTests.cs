@@ -15,7 +15,7 @@ namespace Bakery.Tests
     [TestMethod]
      public void PastryPrice_checksPriceOfPastry_Pastry()
     {
-     int pastryQuantity = 5;
+     int pastryQuantity = 1;
      int pastryPrice = 2;
      Pastry newPastry = new Pastry(pastryQuantity);
      int totalPastryCost = newPastry.CostOfPastry();
