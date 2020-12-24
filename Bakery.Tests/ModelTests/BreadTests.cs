@@ -21,5 +21,14 @@ namespace Bakery.Tests
      int totalBreadCost = newBread.CostOfBread();
      Assert.AreEqual(costOfBread, totalBreadCost);
     }
+
+    [TestMethod]
+    public void BreadPrice_GetsOrderAfterDiscount_Int()
+    {
+      int breadQuantity = 1;
+      Bread newBread = new Bread(breadQuantity);
+      int result = newBread.CostOfBread();
+      Assert.AreEqual(4, result);
+    }
   }
 }
